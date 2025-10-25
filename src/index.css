@@ -3,11 +3,12 @@
 
 @layer components{
   .container{
-    @apply w-[1240px] mx-auto
+    @apply w-[1240px] mx-auto  pt-4 px-6
   }
-  .padding{
-    @apply sm:32px lg:64px xl:80px 2xl: 96px
+  .primary-btn{
+    @apply bg-primary text-white font-semibold py-3 px-6 rounded-xl shadow-[0px_10px_14px_-7px_#de0029] hover:!scale-110 duration-300
   }
+
 }
 @theme {
   --color-primary: #de2c4d;
