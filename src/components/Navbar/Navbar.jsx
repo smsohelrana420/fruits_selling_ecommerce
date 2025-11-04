@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLeaf } from 'react-icons/fa'
 import { MdMenu, MdOutlineShoppingCart } from 'react-icons/md'
 import ResponsiveNavbar from './ResponsiveNavbar'
+import {motion} from "framer-motion"
 
 
 const NavbarMenu=[
@@ -37,7 +38,11 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container flex justify-between items-center pt-4 px-6 md:pt-4">
+        <motion.div 
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{duration:0.5,delay:0.5}}
+        className="container flex justify-between items-center pt-4 px-6 md:pt-4">
           {/* Logo Section */}
           <div className="text-2xl flex items-center gap-2 font-bold uppercase">
             <p className="text-primary">Fruit</p>
@@ -68,7 +73,7 @@ const Navbar = () => {
           }}>
             <MdMenu className="text-4xl" />
           </div>
-        </div>
+        </motion.div>
 
       </nav>
         <ResponsiveNavbar open={open} />

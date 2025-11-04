@@ -10,6 +10,11 @@
   }
 
 }
+@layer utilities{
+  .drop-shadow{
+    filter: drop-shadow(-6px 8px 15px rgba(0,0,0,0.2));
+  }
+}
 @theme {
   --color-primary: #de2c4d;
   --color-secondary: #fb923c;
