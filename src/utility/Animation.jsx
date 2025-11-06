@@ -20,7 +20,7 @@ export const FadeLeft=(delay)=>{
             opacity:0,
             x:100
         },
-        visibile:{
+        visible:{
             opacity:1,
             x:0,
             transition:{
