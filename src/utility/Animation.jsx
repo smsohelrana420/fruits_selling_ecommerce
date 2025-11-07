@@ -4,7 +4,7 @@ export const FadeUp=(delay)=>{
             opacity:0,
             y:100
         },
-        visibile:{
+        visible:{
             opacity:1,
             y:0,
             transition:{
