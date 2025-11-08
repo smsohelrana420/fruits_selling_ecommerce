@@ -47,7 +47,7 @@ const Banner2 = () => {
               initial="hidden"
               animate="visible"
             >
-              <button className="primary-btn">Download App</button>
+              <button className="primary-btn">Download  App</button>
             </motion.div>
           </div>
         </div>
