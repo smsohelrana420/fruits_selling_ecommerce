@@ -1,6 +1,6 @@
 # React + Vite
 
-fruits-selling-tic.netlify.app
+@live link fruits-selling-tic.netlify.app
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
